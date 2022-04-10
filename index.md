@@ -16,10 +16,10 @@ This should prompt you to enter your password and upon correctly entering it you
 
 Now that you have access to the remote device you can try running some commands on it. Some examples would be:
 
-`ls` - list out elements that are inside the directory your in
-`cd _dirname_` - enter a directory
-`mkdir _dirname_` - create a new directory
-`touch _filename_` - create a new file
+- `ls` - list out elements that are inside the directory your in
+- `cd _dirname_` - enter a directory
+- `mkdir _dirname_` - create a new directory
+- `touch _filename_` - create a new file
 
 
 
