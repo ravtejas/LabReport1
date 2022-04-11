@@ -43,15 +43,15 @@ Usually when we try to ssh into a remote device we will be prompted for a passwo
 
 `ssh-keygen`
 
-It will ask you for a location and a passphrase. You can specify a location or press enter and the computer will automatically allocate it somewhere. Do not add a passphrase. This command will generate two files for you : a public key file, and a private key file. We now need to scp the public key file to the remote device's authorized keys file using the following command:
-
 ![ssh-keygen](/keygen-1.png)
+
+It will ask you for a location and a passphrase. You can specify a location or press enter and the computer will automatically allocate it somewhere. Do not add a passphrase. This command will generate two files for you : a public key file, and a private key file. We now need to scp the public key file to the remote device's authorized keys file using the following command:
 
 `scp <filelocationofpublickeyfile> <youraccount>@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
-After completing these steps, you should be able to ssh into the remote device without it prompting you for a password.
-
 ![ssh-keygen2](/keygen-2.png)
+
+After completing these steps, you should be able to ssh into the remote device without it prompting you for a password.
 
 ## 6. Optimizing Remote Running
 
