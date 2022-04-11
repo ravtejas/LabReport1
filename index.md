@@ -4,7 +4,7 @@
 
 **VS code** is an IDE that we can use to write and execute code on. It can be downloaded [here](https://code.visualstudio.com/download) for all operating systems
 
-![VS Code img](/LabReport1/vscode-pic.png)
+![VS-Code-img](/LabReport1/vscode-pic.png)
 
 ## 2. Remotely Connecting
 
