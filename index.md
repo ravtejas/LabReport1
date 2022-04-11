@@ -25,6 +25,8 @@ Now that you have access to the remote device you can try running some commands 
 - `mkdir _dirname_` - create a new directory
 - `touch _filename_` - create a new file
 
+![trying commands](/labreport-3.png)
+
 ## 4. Moving Files With scp
 
 You can now move files from your local device to the remote device. To do this you can either create a new file or use an existing file and enter the following command to move that file from your local machine to the remote one.
@@ -32,6 +34,8 @@ You can now move files from your local device to the remote device. To do this y
 `scp <filename> <youraccount>@ieng6.ucsd.edu:~/`
 
 It will prompt you for a password and upon corrctly entering it, it will copy the file to the root diretcory of the virtual machine.
+
+![scp example](/labreport-scp.png)
 
 ## 5. Creating an SSH key
 
@@ -41,9 +45,13 @@ Usually when we try to ssh into a remote device we will be prompted for a passwo
 
 It will ask you for a location and a passphrase. You can specify a location or press enter and the computer will automatically allocate it somewhere. Do not add a passphrase. This command will generate two files for you : a public key file, and a private key file. We now need to scp the public key file to the remote device's authorized keys file using the following command:
 
+![ssh-keygen](/keygen-1.png)
+
 `scp <filelocationofpublickeyfile> <youraccount>@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
 After completing these steps, you should be able to ssh into the remote device without it prompting you for a password.
+
+![ssh-keygen2](/keygen-2.png)
 
 ## 6. Optimizing Remote Running
 
@@ -52,3 +60,5 @@ There a certain tricks you can use to make running comands remotely more efficie
 - you can use semi-colons to chain multiple commands together. `javac file1.java; java file1`
 - you can use quotes to run a command on the virtual machine you are trying to ssh to. `ssh <youraccount>@ieng6.ucsd.edu "pwd"`
 - you can use the up arrow to access all previous commands you have typed on the terminal.
+
+![multiple-commands](/labreport-5.png)
