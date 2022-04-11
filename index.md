@@ -14,6 +14,8 @@ Connecting to a remote computer is done using the ssh command. The course specif
 
 This should prompt you to enter your password and upon correctly entering it you should have access to the remote device.
 
+![sshpic](/labreportpic2.png)
+
 ## 3. Trying Some Commands
 
 Now that you have access to the remote device you can try running some commands on it. Some examples would be:
