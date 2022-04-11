@@ -45,8 +45,6 @@ After completing these steps, you should be able to ssh into the remote device w
 
 There a certain tricks you can use to make running comands remotely more efficient. Some examples are:
 
-
-
-
-
-
+- you can use semi-colons to chain multiple commands together. `javac file1.java; java file1`
+- you can use quotes to run a command on the virtual machine you are trying to ssh to. `ssh <youraccount>@ieng6.ucsd.edu "pwd"`
+- you can use the up arrow to access all previous commands you have typed on the terminal.
