@@ -1,3 +1,3 @@
 # CSE 15L Lab Reports
 
-- [Lab Report 1](https://ravtejas.github.io/LabReport1/)
+- [Lab Report 1](/lab-report-1.md)
