@@ -40,7 +40,7 @@ file, and if not, we exit the loop.
 
 ### **Test File**
 
-[test-file-2](/test-file-2.md)
+[test-file-2](/test-file2.md)
 
 ### **Commit Changes Screenshot**
 
