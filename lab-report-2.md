@@ -1,6 +1,6 @@
 # Lab Report 2
 
-## Code Issue 1: Assuming user always provides a file
+## Code Issue 1: Code assumes user always provides a file
 
 ### **Test File**:
 
@@ -18,7 +18,7 @@ The bug in this case was that the code always assumed the user would provide a f
 tries to read a file. This causes an ArrayIndexOutOfBoundsException as the args array is actually empty and so in order to fix this we first check if there 
 is any file provided by the user and only then execute the rest of the code.
 
-## Code Issue 2: Infinite loop caused by code running even when there are no more links left to read
+## Code Issue 2: Infinite loop caused by code running even when there are no more links left
 
 ### **Test File**:
 
@@ -36,9 +36,9 @@ The issues in this case is that code for finding links continues to run even whe
 infinite loop causing an OutOfMemory error. In order to fix this we add an if statement that just checks whether there are any more links remaining in the
 file, and if not, we exit the loop.
 
-## Code Issue 3: Image links are included in the list of links even though they are not supposed to be
+## Code Issue 3: Image links are included in the list of links 
 
-### **Test File**:
+### **Test File**
 
 [test-file-2](/test-file-2.md)
 
