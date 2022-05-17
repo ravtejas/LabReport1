@@ -49,7 +49,7 @@ push chnages to the repository on github, which was previously not possible.
 The commit changes can be seen in the file below. The file containing the changes can also be found below.
 
 ![commitpic](/commitieng6.png)
-[commit file](https://github.com/ravtejas/cse15L-lab-reports/edit/main/lab-report-3-week-6.md)
+[commit file](https://github.com/ravtejas/lab3-demo/blob/main/file1.java)
 
 ## 3. Copying Whole Directories
 
