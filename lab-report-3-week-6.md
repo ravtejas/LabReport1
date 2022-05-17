@@ -18,3 +18,5 @@ Hence it is now possible to ssh into the server without having to type the long 
 - scp command using the new Alias
 
 ![scp-alias](/copyingfile-alias.png)
+
+We can also scp files to the serveer by using the alias, as shown above. This also makes the process far easier and less tedious.
