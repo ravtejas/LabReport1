@@ -35,3 +35,18 @@
 
 ![Snippet-3-Test](/Snippet3Test.png)
 
+## Results of Test run on both repositories
+
+- Tests Run on my Repository Results
+
+![myTests](/Mytests.png)
+
+Result: All tests failed.
+
+- Tests Run on the Repository I Reviewed
+
+![myTests](/otherTests.png)
+
+Result: All tests failed.
+
+
