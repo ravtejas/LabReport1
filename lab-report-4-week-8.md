@@ -20,3 +20,18 @@
 
 [“https://www.twitter.com”, “https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule”, “https://cse.ucsd.edu/”]
 
+## Code for Markdown Parse Tests
+
+- Test for Snippet 1
+
+![Snippet-1-Test](/Snippet1Test.png)
+
+- Test for Snippet 2
+
+![Snippet-2-Test](/Snippet2Test.png)
+
+
+- Test for Snippet 3
+
+![Snippet-3-Test](/Snippet3Test.png)
+
