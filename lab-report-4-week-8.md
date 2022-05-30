@@ -3,6 +3,7 @@
 ## 1. Links to Repositories
 
 [Link to my repository](https://github.com/ravtejas/markdown-parser)
+
 [Link to the Repository I reviewed](https://github.com/mikayladalton2/markdown-parser)
 
 ## Expected Outputs for Snippets
