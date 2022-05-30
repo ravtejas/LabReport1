@@ -3,23 +3,19 @@
 ## 1. Links to Repositories
 
 [Link to my repository](https://github.com/ravtejas/markdown-parser)
+[Link to the Repository I reviewed](https://github.com/mikayladalton2/markdown-parser)
 
-- Editing the .ssh/config file
+## Expected Outputs for Snippets
 
-![ssh-config](/ssh-config.png)
+- Snippet 1:
 
-This file shows the ssh-config file being edited to allow for easier ssh-ing int the ieng6 server. The alias chosen to replace the previous long command is
-**ieng6**. It is now possible to ssh into the server by simply writing ssh ieng6 as shown below.
+[“`google.com”, “google.com”, “ucsd.edu”]
 
-- Logging in with ssh using new alias
+- Snippet 2
 
-![ssh-alias](/ssh-with-alias.png)
+[“a.com”, “a.com(())”, “example.com”]
 
-Hence it is now possible to ssh into the server without having to type the long command previously required. This makes the process far less tedious.
+- Snippet 3
 
-- scp command using the new Alias
-
-![scp-alias](/copyingfile-alias.png)
-
-We can also scp files to the serveer by using the alias, as shown above. This also makes the process far easier and less tedious.
+[“https://www.twitter.com”, “https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule”, “https://cse.ucsd.edu/”]
 
