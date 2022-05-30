@@ -55,6 +55,9 @@ Result: All tests failed.
   your program work for snippet 1 and all related cases that use inline
   code with backticks? If yes, describe the code change. If not, describe
   why it would be a more involved change.
+  
+Yes, I think there is an easy fix for this issue. I can use to variables to track the opening and closing index of backticks and if the link indexes lie between the opening and closing indexes of the backticks, then we know to ignore that link.
+  
 
 
 
