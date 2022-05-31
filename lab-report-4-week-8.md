@@ -56,7 +56,16 @@ Result: All tests failed.
   code with backticks? If yes, describe the code change. If not, describe
   why it would be a more involved change.
   
-Yes, I think there is an easy fix for this issue. I can use to variables to track the opening and closing index of backticks and if the link indexes lie between the opening and closing indexes of the backticks, then we know to ignore that link.
+Yes, I think there is an easy fix for this issue. I can use to variables to track the opening and closing index of backticks and if the opening '[' or closing ']' index lies between those values, we can know to ignore that link and move to the next one.
+
+- Question 2: Do you think there is a small (<10 lines) code change that will make
+your program work for snippet 2 and all related cases that nest
+parentheses, brackets, and escaped brackets? If yes, describe the
+code change. If not, describe why it would be a more involved change.
+
+- Yes, I think there is an easy fix to this issue. After finding the index of the opening '(' or "[" w
+
+  
   
 
 
