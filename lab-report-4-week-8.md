@@ -37,7 +37,7 @@
 
 ## Results of Test run on both repositories
 
-- Tests Run on my Repository Results
+- Tests Run on my Repository 
 
 ![myTests](/Mytests.png)
 
