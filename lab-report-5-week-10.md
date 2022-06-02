@@ -24,7 +24,7 @@ This test uses test file 580.
 
 - Expected Output of file using markdown preview on VsCode
 
-![file580run](/file580run)
+![file580run](/file580run.png)
 
 
 
