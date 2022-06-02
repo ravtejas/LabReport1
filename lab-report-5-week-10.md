@@ -26,5 +26,15 @@ This test uses test file 580.
 
 ![file580run](/file580run.png)
 
+In this My implemntation of markdown parse was correct and the provided one was incorrect. File 580 contains a single image link and the provided
+implementation still considers image links and links and hence adds it to the list of links where as mine does not.
+
+- How to fix the issue
+
+The change would. be a simple check to see if the there is a ! immeadiately behind the '[' index. The code could be added to  part of the program shown below after the index of the [ has been found.
+
+![change1](/change1.png)
+
+
 
 
