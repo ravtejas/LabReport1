@@ -20,11 +20,11 @@ This test uses test file 580.
 
 - Output for both implementations of Markdown Parse (MarkdownParse2 is my implementation)
 
-![file580](/file580.png)
+![file580run](/file580run.png)
 
 - Expected Output of file using markdown preview on VsCode
 
-![file580run](/file580run.png)
+![file580](/file580.png)
 
 In this My implemntation of markdown parse was correct and the provided one was incorrect. File 580 contains a single image link and the provided
 implementation still considers image links and links and hence adds it to the list of links where as mine does not.
@@ -41,11 +41,11 @@ This test uses test file 22.
 
 - Output for both implementations of Markdown Parse (MarkdownParse2 is my implementation)
 
-![file22](/file22.png)
+![file22run](/file22run.png)
 
 - Expected Output of file using markdown preview on VsCode
 
-![file22run](/file22run.png)
+![file22](/file22.png)
 
 In this case the provided implentation of the link is correct. The file seems to contain one legit link, however there is a space in the url part of the 
 link which is why it should not be considered as a valid link. My code adds this link to the list of links but the provided implementation does not.
