@@ -10,5 +10,6 @@ of the test cases that differed.
 
 I used test files 14 and 22. The links are below.
 
-[File 22]((/22.md)
+[File 22](/22.md)
+
 [File 14](/14.md)
